@@ -43,28 +43,24 @@
 
 
 .custom-navbar {
-    min-height: 180px; /* Puedes ajustar el valor si quieres más o menos */
+    min-height: 180px; 
     display: flex;
     align-items: center;
 }
 
-/* Ajusta la marca (logo + texto) para que no se desalineen */
 .custom-navbar .navbar-brand {
     display: flex;
     align-items: center;
 }
 
-/* Centrar los ítems del menú verticalmente */
 .custom-navbar .navbar-nav .nav-link {
     display: flex;
     align-items: center;
 }
 
-/* Ajuste adicional para menú colapsado en móvil */
 @media (max-width: 992px) {
     .custom-navbar .navbar-nav {
         text-align: center;
         margin-top: 10px;
     }
 }
-/* COLORES DE LA PALETA */
