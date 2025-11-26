@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>git switch feature/
+
+<body>
+   <header class="headerContainer">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+                <img src="images/images Logos/logoconletra.png" alt="Logo Catalicia" class="logo-nav">
+                <span class="brand-text ms-2">Catalicia</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavbarNav"
+                aria-controls="NavbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="NavbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menus.html">Menús</a></li>
+                    <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobreNosotros.html">Sobre nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+
+<main class="container py-5">
+
+    <h1 class="text-center mb-4">Eventos en Catalicia</h1>
+    <p class="text-center mb-5 fs-5">
+        En Restaurante Catalicia ofrecemos espacios elegantes y versátiles para la celebración de tus momentos más especiales.
+        Adaptamos nuestro comedor y patio exterior para bodas, bautizos, comuniones y todo tipo de eventos familiares y corporativos.
+        Cada detalle cuenta y nuestro equipo se encargará de crear una experiencia inolvidable.
+    </p>
+
+    <div id="carouselEventos" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/imagesEvents/events1.jpg" class="d-block w-100" alt="Evento en comedor exterior">
+            </div>
+            <div class="carousel-item">
+                <img src="images/imagesEvents/events2.jpg" class="d-block w-100" alt="Evento en patio exterior">
+            </div>
+            <div class="carousel-item">
+                <img src="images/imagesEvents/events4.jpg" class="d-block w-100" alt="Decoración para boda">
+            </div>
+            <div class="carousel-item">
+                <img src="images/imagesEvents/events5.jpg" class="d-block w-100" alt="Montaje para comida de empresa">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselEventos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselEventos" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+<h2 class="text-center mt-5 mb-4">Tipos de eventos que organizamos</h2>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped text-center align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>Tipo de evento</th>
+                <th>Capacidad</th>
+                <th>Ubicación disponible</th>
+                <th>Menú especial</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bodas</td>
+                <td>Hasta 150 personas</td>
+                <td>Interior + Patio exterior</td>
+                <td>Sí (personalizable)</td>
+            </tr>
+            <tr>
+                <td>Comuniones</td>
+                <td>Hasta 90 personas</td>
+                <td>Comedor</td>
+                <td>Sí (menú infantil disponible)</td>
+            </tr>
+            <tr>
+                <td>Bautizos</td>
+                <td>Hasta 60 personas</td>
+                <td>Comedor</td>
+                <td>Sí</td>
+            </tr>
+            <tr>
+                <td>Comidas de empresa</td>
+                <td>Hasta 120 personas</td>
+                <td>Interior + Patio exterior</td>
+                <td>Sí (adaptación para alergias e intolerancias)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+    <h2 class="text-center mb-4">Solicita presupuesto para tu evento</h2>
+
+    <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre *</label>
+            <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="mb-3">
+            <label for="apellidos" class="form-label">Apellidos *</label>
+            <input type="text" class="form-control" id="apellidos" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico *</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="telefono" class="form-label">Teléfono *</label>
+            <input type="tel" class="form-control" id="telefono" required>
+        </div>
+        <div class="mb-3">
+            <label for="detalle" class="form-label">Detalle del evento (opcional)</label>
+            <textarea class="form-control" id="detalle" rows="4" placeholder="Por ejemplo: Boda, 120 invitados, fecha deseada..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark w-100">Enviar solicitud</button>
+    </form>
+
+    <a href="tel:+34123456789" class="btn btn-success w-100 mt-3">📞 Llamar para más información</a>
+
+
+</main>
+
+
+<footer class="text-center py-4 bg-light mt-5">
+    <p class="mb-0">© 2025 Restaurante Catalicia — Todos los derechos reservados.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+    
