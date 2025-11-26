@@ -1,0 +1,52 @@
+/* NAVBAR - COLORES BASADOS EN LA PALETA */
+.navbar {
+  background-color: #425B72 !important; /* Azul principal */
+  padding: 0.8rem 1rem;
+}
+
+/* Logo */
+.logo-nav {
+  height: 48px;
+  width: auto;
+  margin-right: 8px;
+}
+
+/* Texto marca */
+.brand-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #F2E6D8; /* Base neutra (marrón claro) */
+}
+
+/* Quitar color azul de Bootstrap */
+.nav-link {
+  color: #F2E6D8 !important; /* Marrón claro */
+  font-weight: 500;
+  margin-left: 0.6rem;
+  transition: 0.3s ease;
+}
+
+/* Estado activo y hover */
+.nav-link:hover,
+.nav-link.active {
+  color: #C7DDE5 !important; /* Azul claro */
+  border-bottom: 2px solid #C7DDE5;
+}
+
+/* Para que el botón del menú (hamburguesa) combine bien */
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+.navbar-toggler-icon {
+  filter: invert(100%); /* Hace la hamburguesa blanca */
+}
+
+/* Espaciado responsivo 
+@media (max-width: 992px) {
+  .nav-link {
+    margin: 6px 0;
+  }
+  .brand-text {
+    font-size: 1.2rem;
+  }
+}
