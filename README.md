@@ -3,7 +3,11 @@
 Este proyecto consiste en el desarrollo del sitio web oficial del **Restaurante Catalicia**, un restaurante de inspiración mediterránea y atlántica.  
 El objetivo del sitio es ofrecer una experiencia visual agradable para los usuarios, permitiéndoles explorar los menús, la historia del restaurante, eventos y solicitar información mediante un formulario de contacto.
 
----
+## Desarrolladores Web
+    Ana Morandeira
+    María Pérez
+    Javier Galván
+    Noa-Li Vilchez---
 
 ##  Tecnologías utilizadas
  **HTML5**  Estructura del sitio 
