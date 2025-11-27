@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<body>
+
+    <header class="headerContainer">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            
+            <a class="navbar-brand fw-bold" href="index.html">Catalicia</a>
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#NavbarNav" aria-controls="NavbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            
+            <div class="collapse navbar-collapse" id="NavbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">Nuestra Historia</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menú</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="especiales.html">Especiales</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="eventos.html">Eventos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre-nosotros.html">Sobre nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+    <main class="mainContainer container py-5">
+
+        <section class="sectionHistory text-center mb-5">
+            <h1 class="sectionTitle mb-4">Nuestra Historia</h1>
+            <p class="sectionDescription mx-auto" style="max-width: 900px;">
+                Catalicia nació de la pasión de sus fundadores por la cocina y la amistad.
+                Tres regiones se unieron: Cataluña, Alicante y Galicia. Todo comenzó durante un
+                curso de cocina, donde decidieron crear un restaurante que reflejara la fusión
+                de sus raíces y sabores tradicionales.
+            </p>
+        </section>
+
+        
+        <section class="sectionCarouselHistory mb-5">
+
+            <div id="carouselHistoria" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselHistoria" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselHistoria" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselHistoria" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/imagesFood/food8.jpg" class="d-block w-100" alt="Mesa con platos variados">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/imagesFrontal/frontal1.jpg" class="d-block w-100" alt="Fachada del restaurante">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/imagesKitchen/kitchen4.jpg" class="d-block w-100" alt="Cocina del restaurante">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselHistoria" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselHistoria" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+
+        <section class="sectionMissionVision text-center">
+            <h2 class="sectionTitle mb-3">Nuestra Misión</h2>
+            <p class="sectionDescription mx-auto" style="max-width: 900px;">
+                Crear experiencias gastronómicas memorables donde la calidad, la tradición
+                y la innovación se fusionen para despertar emociones en cada visita.
+            </p>
+
+            <h2 class="sectionTitle mt-5 mb-3">Nuestra Visión</h2>
+            <p class="sectionDescription mx-auto" style="max-width: 900px;">
+                Ser un referente culinario reconocido por nuestros sabores auténticos,
+                nuestras raíces regionales y un servicio cercano y humano.
+            </p>
+        </section>
+
+        <section class="container my-5">
+  <h2 class="text-center mb-4">Solicita información</h2>
+  <form>
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre" required>
+      </div>
+      <div class="col-md-6">
+        <label for="apellidos" class="form-label">Apellidos</label>
+        <input type="text" class="form-control" id="apellidos" placeholder="Escribe tus apellidos" required>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="email"
+               placeholder="tucorreo@ejemplo.com" required>
+      </div>
+      <div class="col-md-6">
+        <label for="telefono" class="form-label">Teléfono</label>
+        <input type="tel" class="form-control" id="telefono" placeholder="Número de contacto" required>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary px-4 py-2">
+        Enviar solicitud
+      </button>
+    </div>
+  </form>
+</section>
+
+
+    </main>
+
+    <footer class="footerContainer text-center p-4 bg-light mt-5">
+        <p class="footerText mb-1">© 2025 Catalicia — Todos los derechos reservados.</p>
+        <p class="footerText">Tel: 123 456 789 · Barliruña</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+</body>
+</html>
