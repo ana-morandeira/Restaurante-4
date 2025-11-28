@@ -567,14 +567,14 @@ footer {
     margin: 0;
 }
 
-/* Efectos hover */
+
 .contact-item p:hover,
 .hour-item:hover .time {
     color: #AFC3D1;
     transition: color 0.3s ease;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     .site-footer {
         padding: 30px 0 15px;
