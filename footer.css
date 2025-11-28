@@ -1,0 +1,31 @@
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .intro, .experience, .hours, .menu {
+        padding: 40px 0;
+    }
+    
+    .intro h2, .experience h2, .hours h2, .menu h2 {
+        font-size: 1.7rem;
+    }
+    
+    .hours-grid, .menu-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hour-item, .menu-category {
+        width: 100%;
+        max-width: 350px;
+    }
+}
