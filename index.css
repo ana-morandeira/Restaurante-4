@@ -68,3 +68,633 @@
 .body{
     background-color: #F2E6D8 ;
 }
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand-container h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.tagline {
+    font-size: 1rem;
+    font-style: italic;
+    opacity: 0.8;
+    margin-bottom: 0;
+    color: white;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    padding: 8px 15px;
+    transition: color 0.3s;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    padding: 0;
+}
+
+
+.navbar-brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 5px 0;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-text h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.tagline {
+    font-size: 0.8rem;
+    font-style: italic;
+    opacity: 0.8;
+    margin-bottom: 0;
+    color: white;
+    line-height: 1;
+}
+
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: color 0.3s;
+    font-size: 0.95rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e74c3c !important;
+}
+
+.navbar-toggler {
+    border-color: rgba(255,255,255,0.5);
+    padding: 4px 8px;
+}
+
+.navbar-toggler-icon {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+
+@media (max-width: 768px) {
+    .logo-wrapper {
+        gap: 8px;
+    }
+    
+    .logo-img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .logo-text h1 {
+        font-size: 1.3rem;
+    }
+    
+    .tagline {
+        font-size: 0.75rem;
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 6px 10px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-text h1 {
+        font-size: 1.1rem;
+    }
+    
+    .tagline {
+        font-size: 0.7rem;
+    }
+    
+    .logo-img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+.intro {
+    padding: 60px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.experience {
+    padding: 60px 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.experience h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.experience p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.8;
+}
+
+.btn-menu {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-menu:hover {
+    background-color: #c0392b;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e74c3c !important;
+}
+
+.navbar-toggler {
+    border-color: rgba(255,255,255,0.5);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.intro {
+    padding: 60px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+
+.experience {
+    padding: 60px 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.experience h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.experience p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.8;
+}
+
+.btn-menu {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-menu:hover {
+    background-color: #c0392b;
+    color: white;
+}
+
+
+.hours {
+    padding: 60px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.hours h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+.hours-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.hour-item {
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.hour-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.hour-item p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-brand-container h1 {
+        font-size: 1.5rem;
+    }
+    
+    .tagline {
+        font-size: 0.9rem;
+    }
+    
+    .intro, .experience, .hours, .menu {
+        padding: 40px 0;
+    }
+    
+    .intro h2, .experience h2, .hours h2, .menu h2 {
+        font-size: 1.7rem;
+    }
+    
+    .hours-grid, .menu-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hour-item, .menu-category {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+
+.site-footer {
+    background-color: #131D4F;
+    color: #ffffff;
+    padding: 40px 0 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #EFE4D2, transparent);
+    margin-bottom: 40px;
+}
+
+.footer-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-brand {
+    flex: 1;
+    min-width: 300px;
+}
+
+.footer-brand h3 {
+    font-size: 2.5rem;
+    color: #e74c3c;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.restaurant-info {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.footer-content {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    min-width: 300px;
+}
+
+.contact-section, .hours-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.contact-section strong,
+.hours-section strong {
+    display: block;
+    color: EFE4D2;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.contact-item {
+    margin-bottom: 15px;
+}
+
+.contact-item strong {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.contact-item p {
+    margin: 0;
+    color: #cccccc;
+    line-height: 1.5;
+}
+
+.hours-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hour-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333;
+}
+
+.day {
+    color: #954C2E;
+    font-weight: 500;
+}
+
+.time {
+    color: #954C2E;
+    font-weight: normal;
+}
+
+.footer-bottom {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.footer-legal {
+    text-align: center;
+}
+
+.copyright {
+    color: #EFE4D2;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Efectos hover */
+.contact-item p:hover,
+.hour-item:hover .time {
+    color: #AFC3D1;
+    transition: color 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .site-footer {
+        padding: 30px 0 15px;
+    }
+    
+    .footer-main {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .footer-brand {
+        text-align: center;
+    }
+    
+    .footer-brand h3 {
+        font-size: 2rem;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .contact-section, .hours-section {
+        min-width: 100%;
+    }
+    
+    .hour-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    .time {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-brand h3 {
+        font-size: 1.8rem;
+    }
+    
+    .restaurant-info {
+        font-size: 1rem;
+    }
+    
+    .contact-section strong,
+    .hours-section strong {
+        font-size: 1.1rem;
+    }
+}
+
+
+
+.restaurante-img {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    display: block;
+    border: 3px solid #fff;
+}
+
+
+.intro .restaurante-img {
+    max-width: 350px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+
+.experience .restaurante-img {
+    max-width: 380px;
+    height: 280px;
+    margin: 25px auto;
+}
+
+
+.restaurante-img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+    .restaurante-img {
+        max-width: 320px;
+        height: 240px;
+    }
+    
+    .intro .restaurante-img {
+        max-width: 300px;
+        height: 220px;
+    }
+    
+    .experience .restaurante-img {
+        max-width: 320px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 480px) {
+    .restaurante-img {
+        max-width: 280px;
+        height: 200px;
+    }
+    
+    .intro .restaurante-img {
+        max-width: 260px;
+        height: 180px;
+    }
+    
+    .experience .restaurante-img {
+        max-width: 280px;
+        height: 200px;
+    }
+}
+
